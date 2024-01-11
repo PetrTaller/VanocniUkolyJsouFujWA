@@ -1,0 +1,59 @@
+.h1 {
+    color: #0f0f0f;
+    font-size: 60px;
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-family: lekton, monospace;
+    -ms-flex-item-align: center;
+}
+.h2 {
+    color: #4b4b4b;
+    font-size: 40px;
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-family: lekton, monospace;
+    -ms-flex-item-align: center;
+}
+.h3 {
+    color: #444444;
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-family: lekton, monospace;
+    -ms-flex-item-align: center;
+}
+.button{
+    margin: 10px;
+    padding: 75px;
+    border: none;
+    border-radius: 50%;
+}
+.buttons{
+    text-align: center;
+    margin: 10px;
+    padding: 75px;
+}
+footer {
+    color: #838383;
+    font-size: 15px;
+    text-align: center;
+    font-family: lekton, monospace;
+}
+.difficulty{
+    margin: 10px;
+    padding: 10px;
+    border: none;
+}
+.newGame{
+    color: #444444;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #c4c4c4;
+    border: none;
+    border-radius: 20%;
+}
