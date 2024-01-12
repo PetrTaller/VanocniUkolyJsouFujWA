@@ -1,4 +1,4 @@
-
+let winned = false;
 var hex = document.getElementById("hex");
 var winColor;
 var congrats = document.getElementById("congrats");
@@ -22,10 +22,13 @@ hex.textContent = winColor;
 }
 }
 function buttonClick(button) {
+    if(winned == false){
     if(button.id == "win"){
+        winned = true;
         win();
     }else{
         button.remove();
+    }
     }
 }
 function RndNum(number) {
@@ -78,5 +81,6 @@ function Reset(){
     generateButtons(numberOfButtons);
     var newGameButton = document.getElementById("newGame");
     newGameButton.remove();
+    winned = false;
 }
 generateButtons(numberOfButtons);
