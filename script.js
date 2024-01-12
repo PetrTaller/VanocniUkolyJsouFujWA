@@ -58,7 +58,6 @@ newGame.style.color = "black";
 newGame.textContent = "New Game";
 newGameButton.appendChild(newGame);
 var winButton = document.createElement("win");
-winButton.disabled = true;
 }
 function Diff(button){
     if(button.id == "diff1"){
