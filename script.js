@@ -73,6 +73,7 @@ function Diff(button){
     Reset();
 }
 function Reset(){
+    winned = false;
     var buttons = document.querySelectorAll(".button");
     buttons.forEach(function(button) {
     button.remove();});
@@ -81,6 +82,5 @@ function Reset(){
     generateButtons(numberOfButtons);
     var newGameButton = document.getElementById("newGame");
     newGameButton.remove();
-    winned = false;
 }
 generateButtons(numberOfButtons);
